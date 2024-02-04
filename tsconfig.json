@@ -14,6 +14,10 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
+    "paths": {
+      "@animations/*": ["./src/animations/*"],
+    },
+
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
